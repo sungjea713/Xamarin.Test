@@ -14,7 +14,7 @@
         <!-- Place new controls here -->
         <Label Text="Enter the phone number" />
         <Entry x:Name="phoneTextNumber" Text="1-855-XAMARIN" />
-        <Button Text="Translate" Clicked="OnTranslate" />
+        <Button Text="Translator" Clicked="OnTranslate" />
         <Button x:Name="callButton" Text="Call" IsEnabled="false" />
         <Button x:Name="callHistoryButton" Text="Call History" IsEnabled="false"
            Clicked="OnCall" />
